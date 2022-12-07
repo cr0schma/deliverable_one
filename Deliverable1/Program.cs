@@ -32,7 +32,7 @@ public class Program
             Console.WriteLine(Indent(3) + "which is...");
             Console.WriteLine(" ");
 
-            //calculate how many whole items are needed for the following: 1 loaf of bread contains exactly 28 slices, 1 jar of peanut butter contains exactly 32 tablespoons, 1 jar of jelly contains exactly 48 teaspoons
+            //calculate how many whole items are needed (rounding up) for the following: 1 loaf of bread contains exactly 28 slices, 1 jar of peanut butter contains exactly 32 tablespoons, 1 jar of jelly contains exactly 48 teaspoons
             double slicesPerLoaf = 28;
             double TablespoonsPerJar = 32;
             double TeaspoonsPerJar = 48;
