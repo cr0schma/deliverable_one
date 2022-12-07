@@ -45,6 +45,7 @@ public class Program
             Console.WriteLine(Indent(3) + Math.Round(totalJJarsNeeded, MidpointRounding.ToPositiveInfinity) + " jars of jelly");
 
             //user input - ask if they would like to start the program over
+            Console.WriteLine(" ");
             Console.WriteLine("Would you like to restart? Enter yes or y to continue, or enter any other key to exit.");
             string answer = Console.ReadLine();
 
